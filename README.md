@@ -5,35 +5,39 @@
 ## TECHNOLOGIES USED
 
 ----
-=> SPARK JAVA
-=> Mongodb
-=> GSON
-=> Maven
-=> JUnit
+* SPARK JAVA
+* Mongodb
+* GSON
+* Maven
+* JUnit
 
 
 ## FUNCTIONALITIES
 
-=> CREATE USER
-=> FIND ALL USER
-=> UPDATE USER 
+* CREATE USER
+* FIND ALL USER
+* UPDATE USER 
 
 
 ## SERVICES
 
-=> Create User (POST /users)
-=> FindAllUser (GET /users)
-=> UpdateUser (PUT /users/update)
+* Create User (POST /users)
+* FindAllUser (GET /users)
+* UpdateUser (PUT /users/update)
+* These Service can be accessed through POSTMAN, or curl Command to the terminal 
+* curl -X GET http://localhost:4567/users
+
 
 ## JUnit Testing
 
-=> CREATE USER TESTING
-=> FIND ALL USER TESTING
-=> UPDATE USER TESTING
+* CREATE USER TESTING
+* FIND ALL USER TESTING
+* UPDATE USER TESTING
 
 
 
 **Mongodb Database** :- egenUserMgmt
+
 **Database Collection Name** :- user
 
 ## Sample JSON Data
